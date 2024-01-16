@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/rahuldemocenter/RAHS_16thJanProject
   gitUsername: rahuldemocenter
   gitBranch: main
+services:
+- serviceName: project.rahs_16thjan.integrations:abcdtest
+  packages:
+  - name: RAHS_16thJanProject
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.714
